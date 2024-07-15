@@ -1,0 +1,60 @@
+2024-07-14 19:00:06,452:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:03:53,177:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /reverse?lat=-33.910951&lon=18.3976533&format=json&addressdetails=1
+2024-07-14 19:04:04,439:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:07:27,197:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:10:15,072:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:12:37,836:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:15:58,973:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:19:01,162:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:43:59,321:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:45:45,259:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /reverse?lat=-33.904588&lon=18.408105&format=json&addressdetails=1&zoom=18
+2024-07-14 19:46:08,848:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 19:47:37,543:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 20:09:02,802:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 20:10:13,893:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 20:17:11,407:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 20:20:08,330:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /reverse?lat=-33.911038&lon=18.3976033&format=json&addressdetails=1&zoom=18
+2024-07-14 20:23:31,444:ERROR:Error processing file: read_excel() got an unexpected keyword argument 'chunksize'
+2024-07-14 20:28:40,424:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 20:32:28,861:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 20:37:01,782:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 20:41:29,290:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 20:58:18,374:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/KWells_0527_with_end_destinations.xlsx
+2024-07-14 21:03:52,710:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-14 21:05:59,317:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-15 06:40:36,385:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-15 08:42:12,370:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-15 08:46:54,244:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test2_with_end_destinations.xlsx
+2024-07-15 09:56:55,398:WARNING:Invalid GPS coordinate: -25.853126525878906, 28.322616577148438
+2024-07-15 09:57:47,822:INFO:Reverse geocoded address for (-33.9770, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 09:58:09,811:INFO:Reverse geocoded address for (-33.9770, 18.48120): Keurboom Road, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 09:58:57,473:INFO:Reverse geocoded address for (-33.9770, 18.48190): Stanford Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 09:59:12,347:INFO:Reverse geocoded address for (-33.9770, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 09:59:19,099:INFO:Reverse geocoded address for (-33.9770, 18.48150): Stanford Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 09:59:35,260:INFO:Reverse geocoded address for (-33.9770, 18.48130): Keurboom Road, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:00:02,379:INFO:Reverse geocoded address for (-33.97700, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:00:35,562:INFO:Reverse geocoded address for (-33.97700, 18.48150): Stanford Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:00:41,838:INFO:Reverse geocoded address for (-33.97700, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:01:02,525:INFO:Reverse geocoded address for (-33.97790, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:01:16,977:INFO:Reverse geocoded address for (-33.97770, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:01:22,667:INFO:Reverse geocoded address for (-33.97760, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:01:27,259:INFO:Reverse geocoded address for (-33.97760, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:01:32,279:INFO:Reverse geocoded address for (-33.97750, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:01:37,021:INFO:Reverse geocoded address for (-33.97730, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:01:39,798:INFO:Reverse geocoded address for (-33.97730, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:01:43,576:INFO:Reverse geocoded address for (-33.97700, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:02:13,524:INFO:Reverse geocoded address for (-33.97700, 18.48190): Stanford Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:02:19,381:INFO:Reverse geocoded address for (-33.97700, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:02:25,581:INFO:Reverse geocoded address for (-33.97750, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:02:33,622:INFO:Reverse geocoded address for (-33.97700, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:06:04,207:INFO:Reverse geocoded address for (-33.97700, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:06:18,407:INFO:Reverse geocoded address for (-33.97790, 18.48100): Keurboom Close, Wyndover, Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa
+2024-07-15 10:06:24,142:INFO:Reverse geocoded address for (-33.97700, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:06:28,541:INFO:Reverse geocoded address for (-33.97700, 18.48150): Stanford Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:06:33,361:INFO:Reverse geocoded address for (-33.97700, 18.48100): Keurboom Road, Wyndover, Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa
+2024-07-15 10:16:22,642:ERROR:Error processing file: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 8776 and this is thread id 8644.
+2024-07-15 10:18:50,927:INFO:Updated Excel file saved to: C:/Users/Jurie Roux/Documents/Code Pro/gps_formatter/test_with_end_destinations.xlsx
+2024-07-15 10:22:57,412:INFO:Reverse geocoded address for (-25.853126525878906, 28.322616577148438): Country Village Cress, Country View Estate, Tshwane Ward 91, City of Tshwane Metropolitan Municipality, Gauteng, 0072, South Africa
+2024-07-15 10:37:12,084:INFO:Reverse geocoded address for (-25.853126525878906, 28.322616577148438): Country Village Cress, Country View Estate, Tshwane Ward 91, City of Tshwane Metropolitan Municipality, Gauteng, 0072, South Africa
+2024-07-15 10:38:28,737:INFO:Reverse geocoded address for (-25.853126525878906, 28.322616577148438): Country Village Cress, Country View Estate, Tshwane Ward 91, City of Tshwane Metropolitan Municipality, Gauteng, 0072, South Africa
+2024-07-15 10:41:50,931:INFO:Reverse geocoded address for (-25.853126525878906, 28.322616577148438): Country Village Cress, Country View Estate, Tshwane Ward 91, City of Tshwane Metropolitan Municipality, Gauteng, 0072, South Africa
