@@ -69,13 +69,12 @@ class SplashScreen(QtWidgets.QSplashScreen):
         self.setGeometry(screen_geometry)
         super().showEvent(event)
 
-
 class MainWindow(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
-
-        self.initUI()
         self.showSplashScreen()
+        self.initUI()
+        self.center()  # Center the window
 
     def showSplashScreen(self):
         pixmap = QtGui.QPixmap('Welcome.png')
@@ -103,7 +102,7 @@ class MainWindow(QtWidgets.QWidget):
         elogger_block = QtWidgets.QWidget(self)
         elogger_block_layout = QtWidgets.QVBoxLayout(elogger_block)
         elogger_block.setStyleSheet("background-color: #eaeaea; padding: 5px; border-radius: 10px; text-align: center;")
-        self.eloggerLabel = QtWidgets.QLabel('Enter eLogger GPS coordinate (e.g., 33.932798,S,18.4213866,E):', self)
+        self.eloggerLabel = QtWidgets.QLabel('Enter eLogger GPS coordinate (e.g: 33.932798,S,18.4213866,E)', self)
         self.eloggerLabel.setAlignment(QtCore.Qt.AlignCenter)
         elogger_block_layout.addWidget(self.eloggerLabel)
         self.eloggerEntry = QtWidgets.QLineEdit(self)
@@ -118,7 +117,7 @@ class MainWindow(QtWidgets.QWidget):
         traditional_block = QtWidgets.QWidget(self)
         traditional_block_layout = QtWidgets.QVBoxLayout(traditional_block)
         traditional_block.setStyleSheet("background-color: #eaeaea; padding: 5px; border-radius: 10px; text-align: center;")
-        self.traditionalLabel = QtWidgets.QLabel('Enter traditional GPS coordinates (e.g., -25.852981907621604, 28.324011875758643):', self)
+        self.traditionalLabel = QtWidgets.QLabel('Enter traditional GPS coordinates (e.g: -25.852981907621604, 28.324011875758643)', self)
         self.traditionalLabel.setAlignment(QtCore.Qt.AlignCenter)
         traditional_block_layout.addWidget(self.traditionalLabel)
         self.traditionalEntry = QtWidgets.QLineEdit(self)
@@ -167,7 +166,7 @@ class MainWindow(QtWidgets.QWidget):
             }
             QPushButton {
                 background-color: #09a3a3;
-                color: black;
+                color: #09d790;
                 padding: 10px;
                 border-radius: 3px;
                 font-size: 16px;
@@ -201,6 +200,12 @@ class MainWindow(QtWidgets.QWidget):
                 width: 20px;
             }
         """)
+
+    def center(self):
+        qr = self.frameGeometry()
+        cp = QtWidgets.QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
 
     def select_file(self):
         file_path, _ = QFileDialog.getOpenFileName(self, 'Select Excel File', '', 'Excel Files (*.xlsx);;All Files (*)')
